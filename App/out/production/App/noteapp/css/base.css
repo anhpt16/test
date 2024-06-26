@@ -1,0 +1,75 @@
+.root {
+    -lightBackground: #dbdee3ff;
+    -lightContainer: #ffffffff;
+    -lightTextTitle: #4d4d4dcc;
+    -lightTextTitleComponent: #4d4d4dff;
+    -lightTextHint: #ccccccff;
+    -lightTextMain: #000000ff;
+    /* Light mode */
+    -lightFill: #ffffffff;
+    -lightStroke: #66666640;
+    -lightText: #000000ff;
+    -lightStrokeCir: linear-gradient(to right, #666666 50%, #dcdcdc 100%);
+    /* Dark mode */
+    /* CardShort */
+    -lightContainerShortCard: #ecececff;
+    -lightSelectShortCard: #f2f2f2ff;
+    -lightCircleColor: #ffffffff;
+    /* Color Level */
+    -defaultColor: #e6e6e6ff;
+}
+
+.text-mode{
+    -fx-font-family: Arial;
+    -fx-font-size: 12px;
+    -fx-text-fill: -lightTextTitleComponent;
+}
+.text-card-title {
+    -fx-font-family: Arial;
+    -fx-font-size: 12px;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-alignment: center-left;
+}
+.text-content {
+    -fx-font-family: Arial;
+    -fx-font-size: 12px;
+    -fx-text-fill: black;
+}
+
+/* scroll-pane: loại bỏ đường viên cho scrollpane */
+.scroll-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
+
+/* Cấu hình chung cho Card Detail */
+.card_container {
+    -fx-background-radius: 6px;
+    -fx-background-color: -lightContainer;
+    -fx-padding: 8px 14px 14px 14px;
+}
+.card-header {
+    -fx-pref-height: 22px;
+    -fx-border-width: 0 0 0.5px 0;
+    -fx-border-color: -lightStroke;
+}
+.card-header_name {
+    -fx-font-weight: bold;
+}
+.card-header-circle {
+    -fx-fill: -defaultColor;
+    -fx-stroke-width: 0;
+}
+.card-content_container {
+    -fx-min-height: 172px;
+    -fx-max-height: 1000px;
+}

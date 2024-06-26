@@ -1,0 +1,138 @@
+@import "../css/base.css";
+
+.container {
+    -fx-pref-width: 1024px;
+    -fx-pref-height: 768px;
+    -fx-background-color: -lightBackground;
+}
+
+/* Header */
+.header {
+    -fx-pref-height: 60px;
+    -fx-pref-width: inherit;
+    -fx-background-color: -lightContainer;
+    -fx-alignment: center;
+    -fx-padding: 0px 30px;
+    -fx-spacing: 850px;
+}
+/* Chế độ tối - sáng */
+.rec-mode {
+    -fx-pref-width: 70px;
+    -fx-pref-height: 30px;
+    -fx-background-color: -lightFill;
+    -fx-border-radius: 30px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: -lightStroke;
+}
+.circle-mode {
+    -fx-stroke: -lightStrokeCir;
+    -fx-stroke-width: 0.5px;
+    -fx-fill: -lightFill;
+}
+/* Nút thoát */
+.rec-exit {
+    -fx-pref-width: 40px;
+    -fx-pref-height: 30px;
+    -fx-background-color: -lightFill;
+    -fx-border-radius: 10px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: -lightStroke;
+}
+
+/* SideBar */
+.side-title {
+    -fx-pref-width: 220px;
+    -fx-pref-height: 40px;
+    -fx-background-color: -lightContainer;
+    -fx-background-radius: 6px;
+}
+.side-title-text {
+    -fx-font-family: Arial;
+    -fx-font-size: 16px;
+    -fx-text-fill: -lightTextTitleComponent;
+}
+.side-tool {
+    -fx-pref-width: 220px;
+    -fx-pref-height: 56px;
+    -fx-background-color: -lightContainer;
+    -fx-background-radius: 6px;
+}
+.side-tool-select {
+    -fx-pref-width: 80px;
+    -fx-pref-height: 25px;
+    -fx-background-color: -lightContainer;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 6px;
+    -fx-border-color: #999999ff;
+}
+.side-tool-add {
+    -fx-pref-width: 32px;
+    -fx-pref-height: 25px;
+    -fx-background-color: -lightContainer;
+    -fx-border-color: #999999ff;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 6px;
+    -fx-border-style: dashed;
+}
+.side-listcard {
+    -fx-pref-width: 220px;
+    -fx-pref-height: inherit;
+    -fx-background-color: -lightContainer;
+    -fx-background-radius: 6px;
+    -fx-padding: 10px;
+}
+
+/* Center */
+
+.center_container-scroll {
+    -fx-pref-width: 727px;
+    /*-fx-background-color: -lightBackground;*/
+    /*-fx-border-color: red;*/
+    -fx-background-color: transparent;
+}
+.center_container-grid {
+    -fx-background-color: -lightBackground;
+    -fx-pref-width: 727px;
+    -fx-min-height: 618px;
+}
+
+/* Thẻ info */
+.card-info_container {
+    -fx-pref-height: 170px;
+    -fx-min-height: 160px;
+}
+.card-info-title_container {
+    -fx-pref-height: 25px;
+    -fx-padding: 0 0 0 10px;
+}
+.card-info-title-name_container {
+    -fx-pref-width: 80px;
+}
+.card-info-title_input {
+    -fx-pref-width: 220px;
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+}
+.card-info-level-list {
+    -fx-border-color: -lightStroke;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 10px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 17px;
+    -fx-background-color: transparent;
+}
+.card-info-level-color {
+    -fx-pref-width: 16px;
+    -fx-pref-height: inherit;
+    -fx-background-color: -defaultColor;
+    -fx-background-radius: 3px;
+}
+
+
+/* Footer */
+.footer {
+    -fx-pref-height: 60px;
+    -fx-border-width: inherit;
+    -fx-background-color: -lightContainer;
+
+}
